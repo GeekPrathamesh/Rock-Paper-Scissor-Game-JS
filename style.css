@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+h1 {
+  background-color: #081b31;
+  color: aliceblue;
+  height: 10vmin;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 200px;
+  width: 215px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.choice {
+  height: 215px;
+  width: 230px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 6rem;
+}
+img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+#your-score, #comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 3rem;
+}
+
+#msg{
+    margin-top: 5rem;
+    padding: 1rem;
+    background-color: aliceblue;
+    color: #081b31;
+    font-size: 1.2rem;
+    display: inline;
+    border-radius: 4%;
+}
