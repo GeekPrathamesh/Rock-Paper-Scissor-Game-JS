@@ -54,19 +54,40 @@ img:hover {
   gap: 10rem;
   margin-top: 3rem;
 }
-#your-score, #comp-score{
-    font-size: 4rem;
+#your-score,
+#comp-score {
+  font-size: 4rem;
 }
-.msg-container{
-    margin-top: 3rem;
+.msg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#msg{
-    margin-top: 5rem;
-    padding: 1rem;
-    background-color: aliceblue;
-    color: #081b31;
-    font-size: 1.2rem;
-    display: inline;
-    border-radius: 4%;
+.msg , .reload {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #c2daca;
+  color: #081b31;
+  font-size: 1.2rem;
+  display: inline;
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green{
+
+  background-color: #50c878;
+
+}
+.yellow{
+
+  background-color: #fff700;
+
+}
+.red{
+
+  background-color: #d8330a;
+
 }
