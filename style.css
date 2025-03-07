@@ -51,6 +51,8 @@ img:hover {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+  gap: 10rem;
+  margin-top: 3rem;
 }
 #your-score, #comp-score{
     font-size: 4rem;
