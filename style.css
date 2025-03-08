@@ -62,6 +62,7 @@ img:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 
 .msg , .reload {
@@ -75,6 +76,10 @@ img:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.reload:hover{
+  background-color: #d8330a;
+  cursor: pointer;
 }
 .green{
 

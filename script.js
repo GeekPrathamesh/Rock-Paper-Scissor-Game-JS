@@ -1,4 +1,4 @@
-// document.addEventListener("DOMContentLoaded", () => {
+
 
 let userscore = 0;
 let compscore = 0;
@@ -6,6 +6,7 @@ const choices = document.querySelectorAll(".choice");
 let msg = document.querySelector(".msg");
 let userScore = document.querySelector("#your-score");
 let compScore = document.querySelector("#comp-score");
+// let reloadPage = document.querySelector(".reload");
 
 const guessbycomp = () => {
   let arr = ["stone", "paper", "scissor"];
@@ -40,32 +41,29 @@ choices.forEach((choice) => {
 
     msg.innerText = checkWinner(yourChoice, compChoice);
     color();
- 
+
     // msg.classList.remove("none");
   });
 });
 
-
-const color = () =>{
-if(msg.innerText==="It's a Tie !!"){
+const color = () => {
+  if (msg.innerText === "It's a Tie !!") {
     msg.classList.add("yellow");
-    msg.classList.remove("green","red");
-}
-else if(msg.innerText==="You lost this Time"){
+    msg.classList.remove("green", "red");
+  } else if (msg.innerText === "You lost this Time") {
     msg.classList.add("red");
-    msg.classList.remove("green","yellow");
-    compscore+=1;
-    compScore.innerText=(compscore);
-}
-else{
+    msg.classList.remove("green", "yellow");
+    compscore += 1;
+    compScore.innerText = compscore;
+  } else {
     msg.classList.add("green");
-    msg.classList.remove("red","yellow");
-    userscore+=1;
-    userScore.innerText=(userscore);
-}
-}
-
-
-function reloadPage() {
-    location.reload(); // Reloads the current page
+    msg.classList.remove("red", "yellow");
+    userscore += 1;
+    userScore.innerText = userscore;
   }
+};
+
+
+// reloadPage.addEventListener("click",()=>{
+//     location.reload();
+// });
