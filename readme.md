@@ -21,6 +21,5 @@ This is a simple Rock Paper Scissors game made using HTML, CSS, and JavaScript.
 ## Features
 
 - Simple user interface
-- Playable in any browser
-- Random computer choices
+
 - Shows win, lose, or draw result
