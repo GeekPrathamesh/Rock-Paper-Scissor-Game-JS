@@ -51,3 +51,4 @@ resetBtn.addEventListener("click", () => {
     document.querySelector("#your-score").innerText = userscore;
   }
 });
+///////////////
